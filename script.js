@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
 
   // Validation
   if (!name || !age || isNaN(age) || age === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
